@@ -2,26 +2,27 @@
     Task1 - metode ES6
 */
 
+
     /*
-        Task1 - metode ES6
+        Task4 - obiecte: iteratori si deep copy
     */
 
     /*
-        Task1 - metode ES6
+        Task5 - arrays: accesor, iteration, mutator methods
     */
 
     /*
-        Task1 - metode ES6
+        Task6 - promise & callback
     */
 
     /*
-        Task1 - metode ES6
+        Task7 - async & await
     */
 
     /*
-        Task1 - metode ES6
+        Task8 - closures
     */
 
     /*
-        Task1 - metode ES6
+        Task9 - ES6 classes
     */
