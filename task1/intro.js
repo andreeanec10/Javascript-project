@@ -2,11 +2,6 @@
     Task1 - metode ES6
 */
 
-
-    /*
-        Task4 - obiecte: iteratori si deep copy
-    */
-
     /*
         Task5 - arrays: accesor, iteration, mutator methods
     */
