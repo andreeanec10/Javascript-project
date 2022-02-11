@@ -1,5 +1,4 @@
 [{
-  "_id": 1,
   "name": "Alex",
   "address": "Here",
   "email": "alex1@yahoo.com",
@@ -7,7 +6,6 @@
   "salary": 2000,
   "job_title": "Worker"
 },{
-  "_id": 12,
   "name": "Ana",
   "address": "Bucharest",
   "email": "ana_ana19@yahoo.com",
