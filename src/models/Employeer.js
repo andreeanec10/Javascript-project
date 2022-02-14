@@ -40,6 +40,13 @@ let empSchema = new mongoose.Schema({
         //     return validator.isNumeric(value);
         // }
     },
+    project_id: {
+        type: Number,
+        required: true,
+        // validate: (value) => {
+        //     return validator.isNumeric(value);
+        // }
+    },
     job_title: {
         type: String,
         required: true,
