@@ -142,8 +142,8 @@ router.put('/projects/update/:_id', function(req, res) {
 router.get('/employee/:name/getproject', function(req, res) {
   empModel.find({"name": req.params.name})
   .populate("Projects")
-  .exec(function(resp) {
-    res.json(resp.Projects[0].name);
+  .exec(function(err, resp) {
+    res.json(resp.Projects.project_name);
   })
   // empModel.aggregate([{
   //   $lookup: {

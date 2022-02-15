@@ -41,7 +41,8 @@ let empSchema = new mongoose.Schema({
         // }
     },
     project_id: {
-        type: Number,
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Projects",
         required: true,
         // validate: (value) => {
         //     return validator.isNumeric(value);
