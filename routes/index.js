@@ -5,7 +5,11 @@ let db = require('../src/database');
 let empModel = require('../src/models/Employeer');
 const Project = require('../src/models/Project');
 let projectModel = require('../src/models/Project');
-
+const cors = require("cors");
+router.use(cors({
+  origin: "*",
+  methods: "GET"
+}));
 
 /* GET home page. */
 router.get('/', function(req, res) {
