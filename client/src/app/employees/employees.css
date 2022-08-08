@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&family=Roboto+Condensed:wght@300&display=swap');
+
+.table {
+    background-color: #FFEEDD;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.table th {
+    background-color: #fcc8a5;
+    padding: 10px;
+}
+
+.table td {
+    padding: 10px;
+}
+
+.table tr:hover {
+    background-color: #FFD8BE;
+}
+
+.table td button {
+    display: flex;
+    padding: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #B8B8FF;
+    color: white;
+    font-size: large;
+    transition-duration: 0.4s;
+    
+    margin: 1.25rem;
+}
+
+.table td button:hover {
+    background-color: #9381FF;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* #F8F7FF */

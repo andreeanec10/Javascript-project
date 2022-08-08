@@ -8,7 +8,7 @@ let projectModel = require('../src/models/Project');
 const cors = require("cors");
 router.use(cors({
   origin: "*",
-  methods: "GET"
+  methods: "*"
 }));
 
 /* GET home page. */

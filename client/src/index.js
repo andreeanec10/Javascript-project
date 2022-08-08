@@ -4,10 +4,13 @@ import './index.css';
 import Menu from './app/menu/menu';
 import reportWebVitals from './reportWebVitals';
 import Employees from './app/employees/employees';
+import AddEmployee from './app/employees/addEployee';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <Employees />
+    <AddEmployee/>
   </React.StrictMode>,
   document.getElementById('root')
 );
